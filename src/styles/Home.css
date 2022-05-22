@@ -48,3 +48,10 @@
     font-size: 20px;
     text-align: center;
 }
+
+.homecontainer button:hover{
+
+    background: #931806;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
