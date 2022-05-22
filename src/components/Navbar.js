@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
 
           <button>
-              <ReorderIcon />
+              <ReorderIcon></ReorderIcon>
           </button>
       </div>
 
