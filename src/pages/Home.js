@@ -1,5 +1,6 @@
 import React from 'react'
-import HeroImage from '../assets/Home.jpg'
+import HeroImage from '../assets/Home2.jpg'
+import "../styles/Home.css"
 import {Link} from "react-router-dom"
 
 const Home = () => {
