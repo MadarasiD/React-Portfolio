@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
+import  "../styles/Navbar.css"
 
 
 const Navbar = () => {
@@ -18,7 +19,7 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
 
           <button>
-              <ReorderIcon></ReorderIcon>
+              <ReorderIcon />
           </button>
       </div>
 
