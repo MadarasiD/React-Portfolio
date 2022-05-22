@@ -7,9 +7,10 @@ const Home = () => {
   return (
     <div className="home" style={{backgroundImage: `url(${HeroImage})`}}>
         <div className="homecontainer">
-            <h1>Front End Developer</h1>
+          <div className="loader">
+            <h2>Hello, my name is Dani.</h2>
             <p>I am a Front End Developer</p>
-
+          </div>
             <Link to="/menu">
                 <button>gomb</button>
             </Link>

@@ -21,6 +21,7 @@
     font-family: monospace;
     color: rgb(158, 148, 148);
     cursor: pointer;
+    font-size: 10px;
 }
 
 .navbar-right {
@@ -38,7 +39,7 @@
     color: rgb(158, 148, 148);
     text-decoration: none;
     margin: 50px;
-    transform: transition;
+    font-size: 20px;
 }
 
 .navbar a::after{
