@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="navbar">
 
       <div className="navbar-left">
-        <p>Madarasi Dániel</p>
+        <p>Madarasi Dániel <br />Front End Developer</p>
       </div>
 
       <div className="navbar-right">

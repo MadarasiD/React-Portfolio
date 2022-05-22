@@ -1,16 +1,68 @@
 .navbar{
 
     width: 100%;
-    height: 100px;
-    background: #121619;
+    height: 70px;
+    background: #1d2124;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 .navbar-left{
 
-    flex: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.navbar-left p {
+
+    font-family: monospace;
+    color: rgb(158, 148, 148);
+    cursor: pointer;
+}
+
+.navbar-right {
+
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.navbar a {
+    position: relative;
+    color: rgb(158, 148, 148);
+    text-decoration: none;
+    margin: 50px;
+    transform: transition;
+}
+
+.navbar a::after{
+
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: rgb(93, 86, 86);
+    transition: 0.5s ease-out;
+}
+
+.navbar a:hover::after{
+
+    left: 0;
+    width: 100%;
+}
+
+.navbar-right button{
+
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
 }
