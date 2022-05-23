@@ -34,6 +34,8 @@
     margin-right: 40px;
 }
 
+
+
 .navbar a {
     position: relative;
     color: rgb(158, 148, 148);
@@ -66,4 +68,23 @@
     border: none;
     color: #fff;
     cursor: pointer;
+    display: none;
+}
+
+.navbar-right svg{
+
+    font-size: 45px;
+}
+
+@media(max-width: 768px){
+
+    .navbar-right a{
+       
+        display: none;
+    }
+
+    .navbar-right button {
+
+        display: inline-block;
+    }
 }

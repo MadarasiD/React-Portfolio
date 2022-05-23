@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
 import  "../styles/Navbar.css"
+import { Facebook, GitHub, Instagram, LinkedIn, Twitter } from '@mui/icons-material';
 
 
 const Navbar = () => {
@@ -11,6 +12,7 @@ const Navbar = () => {
       <div className="navbar-left">
         <p>Madarasi Dániel <br />Front End Developer</p>
       </div>
+
 
       <div className="navbar-right">
           <Link to="/">Home</Link>
