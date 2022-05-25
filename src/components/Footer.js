@@ -7,7 +7,7 @@ const Footer = () => {
 
         <div className="socialMedia">
 
-          <Instagram /> <Twitter /> <Facebook /> <LinkedIn /> <GitHub />
+          <Instagram /><br /> <Twitter /><br /> <Facebook /><br /> <LinkedIn /><br /> <GitHub />
 
         </div>
 
