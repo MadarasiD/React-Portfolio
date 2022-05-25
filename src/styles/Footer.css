@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.socialMedia{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.socialMedia a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.monogram {
+
+    color: rgb(158, 148, 148);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 10px;
+}
+
