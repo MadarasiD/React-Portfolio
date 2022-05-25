@@ -7,11 +7,11 @@ const Footer = () => {
     <div className="footer">
 
         <div className="socialMedia">
-        <a rel="stylesheet" href="/" ><Instagram  /> <span>Instagram</span></a><br />
-          <Twitter /> <span>Twitter</span> <br /> 
-          <Facebook /> <span>Facebook</span> <br />
-          <LinkedIn /> <span>LinkedIn</span> <br />
-          <GitHub /> <span>GitHub</span>
+        <a rel="stylesheet" href="https://www.instagram.com/" > <Instagram  /> <span>Instagram</span></a><br />
+        <a rel="stylesheet" href="https://www.twitter.com/" > <Twitter /> <span>Twitter</span></a> <br /> 
+        <a rel="stylesheet" href="https://www.facebook.com/" >  <Facebook /> <span>Facebook</span></a> <br />
+        <a rel="stylesheet" href="https://www.linkedin.com/" > <LinkedIn /> <span>LinkedIn</span></a> <br />
+        <a rel="stylesheet" href="https://github.com/MadarasiD" >  <GitHub /> <span>GitHub</span></a>
         </div>
 
 
