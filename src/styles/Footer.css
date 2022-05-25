@@ -4,6 +4,7 @@ body{
 }
 
 .footer {
+    background: #1d2124;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -22,9 +23,17 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 15px;
     text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
 
+}
+
+.socialMedia a:hover{
+
+    color: rgb(210, 81, 81);
+    transition: all 0.3s ease;
 }
 
 .monogram {
